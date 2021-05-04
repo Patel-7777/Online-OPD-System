@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <title>Appointment</title>
+      
+    <style>
+        body{
+            height:80%;
+            font-family: sans-serif;
+        }
+        
+        .main{
+            height: 450px;
+            background: url('lady.jpg') no-repeat 0 0;
+            background-size : cover;
+        }
+        
+        .body{
+            height: 80%;
+        }
+        
+        
+        .col-md-5{
+            margin-top: 5%;
+            background-color: white;
+        }
+        
+        .col-md-6{
+            margin-top: 5%;
+            background-color: none;
+        }
+        
+        .pa{
+            margin: 3%;
+            color: white;
+            padding: 3%;
+           background: rgba(60, 145, 248, 0.73);
+        }
+        
+        .titel{
+            margin: 3%;
+            margin-top: 15%;
+            padding: 1%;
+            background-color: rgba(255, 255, 255, 0.62);
+             color: #3c91f8;
+        }
+
+        
+        
+        
+        .form-group{
+            width: 70%;
+            margin: 3%;
+            margin-left:  auto;
+            margin-right: auto;
+        }
+        
+        input{
+            font-size: 13px;
+            color: #151515;
+            margin: auto;
+            border: none;
+            outline: none;
+        }
+        
+        .fas{
+            font-size: 18px;
+            margin: auto;
+            color: #3c91f8;
+            margin-left: 5%;
+            margin-right: 2%;
+        }
+        ::placeholder{
+            color: darkgray;
+            font-size: 12px;
+        }
+        
+        .select select{
+            font-size: 13px;
+            outline: none;
+            border: none;
+        }
+        
+        select {
+  -webkit-appearance: menulist-button;
+  color: black;
+}
+
+select:invalid {
+  color: darkgray;
+  font-size: 12px;
+}
+        
+        .button{
+            margin-top: 10px;
+            width: 50%;
+            color: white;
+            background-color:#3c91f8; 
+        }
+        .head{
+            margin-bottom: 20px;
+            color: black;
+            font-weight: 700;
+        }
+
+        .head:after{
+	background: #3c91f8;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin: 20px auto;
+}  
+        
+        .box{
+            background: none;
+        }
+      
+        .last{
+            margin: 3%;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 10%;
+            padding: 2%;
+            margin-bottom: -10%;
+            color: white;
+             background: #3c91f8;
+        }
+        
+        .last .fas{
+            color: white;
+        }
+
+
+        #header{
+	color: #fff;
+	background: #3c91f8;
+    position: static;
+}
+#logo{
+	font-size: 2rem;
+	margin-top: 5px;
+}
+#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	color: #fff;
+	padding: 15px 10px;
+	display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+	background: #3284e8;
+}
+
+#footer{
+	color: #fff;
+	background: #3284e8;
+	padding: 10px 0;
+}
+#social-icons{
+	list-style: none;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	/* font-size: 20px; */
+}
+#social-icons li{
+	display: inline-block;
+	padding-left: 5px;
+}
+#social-icons li a{
+	color: #fff;
+	font-size: 23px;
+	/* font-size: 20px; */
+}
+
+        
+        @media screen and (max-width:761px){
+            .last {
+                margin: -10px;
+                display:none;
+            }
+}
+    </style>
+  </head>
+  <body>
+
+    <div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 id="logo">Healing Hands</h1>
+				</div>
+				<div class="col-md-8">
+					<ul id="menu" class="float-md-right">
+						<li><a href="./home.html">Home</a></li>
+						<li><a href="./#about-us">About Us</a></li>
+						<li><a href="./Service.html">Services</a></li>
+						<li><a href="./cancel">Cancle Appointment</a></li>
+						<li><a href="./Doctor.html">Our Doctor</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+      <div class="body">
+      <div class="main">
+      <div class="container-fluid py-3 ">
+        <div class="row justify-content-around py-3">
+            <div class="col-md-6 py-5">
+                <div class="titel"><h3>We are happy to serve you...</h3></div>
+                <div class="pa">
+                    <p>We practice medicine that our historical ancestor could only dream of, and we have acess to amazing treatment and cures for our patients on a daily basis. </p>
+                </div>
+                
+                 <div class="last shadow-lg"><h3>Choose well... Be well...</h3></div>
+            
+            </div>
+            
+          <div class="col-md-5 py-3 shadow rounded-lg">
+            <form action="/send-email" method="POST">
+                
+                <center><h3 class="head">Book your Appoinment now</h3></center>
+              <div class="form-group py-1 shadow rounded-pill">
+                <i class="fas fa-user-plus"></i>
+                <input type="text" placeholder="Pateint name" name="p_name" required>
+              </div>
+                
+                 <div class="form-group py-1 shadow rounded-pill">
+                <i class="fas fa-hand-holding-heart"></i>
+                <input type="number" placeholder="Age in Year" name="age" required>
+              </div>
+                
+                <div class="form-group select py-1 shadow rounded-pill">
+                     <i class="fas fa-venus-mars"></i>
+                    <select name="gender" required>
+                        <option value="">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                
+                 <div class="form-group py-1 shadow rounded-pill">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" name="email">
+              </div>
+                
+                 <div class="form-group py-1 shadow rounded-pill">
+                <i class="fas fa-phone-alt"></i>
+                <input type="text" placeholder="Contact no." name="c_no">
+              </div>
+                
+                  <div class="form-group select py-1 shadow rounded-pill">
+                     <i class="fas fa-user-md"></i>
+                    <select name="d_name" required>
+                        <option value="">Choose your Doctor</option>
+                        <option value="Dr. V.M. Shah">Dr. V.M. Shah</option>
+                        <option value="Dr. Savitri Shrivastava">Dr. Savitri Shrivastava</option>
+                        <option value="Dr. Ramakanta Panda">Dr. Ramakanta Panda</option>
+                        <option value="Dr. Rachel Parker">Dr. Rachel Parker</option>
+                        <option value="Dr. Ian Smith">Dr. Ian Smith</option>
+                        <option value="Dr. Shobha Rani">Dr. Shobha Rani</option>
+                    </select>
+                </div>
+       
+                 <div class="form-group py-1 shadow rounded-pill">
+                 <i class="fas fa-calendar-day"></i>
+                    <input placeholder=" Choose Appoinment date" class="textbox-n" type="text" name="date" onfocus="(this.type='date')" id="date"> 
+              </div>
+                
+                <div class="form-group select py-1 shadow rounded-pill">
+                     <i class="fas fa-clock"></i>
+                    <select name="time" required>
+                        <option value="">Choose your convient time</option>
+                        <option value="9:00 am to 9:15 am">9:00 am to 9:15 am</option>
+                        <option value="9:15 am to 9:30 am">9:15 am to 9:30 am</option>
+                        <option value="9:30 am to 9:45 am">9:30 am to 9:45 am</option>
+                        <option value="9:45 am to 10:00 am">9:45 am to 10:00 am</option>
+                        
+                        <option value="10:00 am to 10:15 am">10:00 am to 10:15 am</option>
+                        <option value="10:15 am to 10:30 am">10:15 am to 10:30 am</option>
+                        <option value="10:30 am to 10:45 am">10:30 am to 10:45 am</option>
+                        <option value="10:45 am to 11:00 am">10:45 am to 11:00 am</option>
+                        
+                        <option value="11:00 am to 11:15 am">11:00 am to 11:15 am</option>
+                        <option value="11:15 am to 11:30 am">11:15 am to 11:30 am</option>
+                        <option value="11:30 am to 11:45 am">11:30 am to 11:45 am</option>
+                        <option value="11:45 am to 12:00 am">11:45 am to 12:00 am</option>
+                        
+                        <option value="03:00 pm to 03:15 pm">03:00 pm to 03:15 pm</option>
+                        <option value="03:15 pm to 03:30 pm">03:15 pm to 03:30 pm</option>
+                        <option value="03:30 pm to 03:45 pm">03:30 pm to 03:45 pm</option>
+                        <option value="03:45 pm to 04:00 pm">03:45 pm to 04:00 pm</option>
+                        
+                        <option value="04:00 pm to 04:15 pm">04:00 pm to 04:15 pm</option>
+                        <option value="04:15 pm to 04:30 pm">04:15 pm to 04:30 pm</option>
+                        <option value="04:30 pm to 04:45 pm">04:30 pm to 04:45 pm</option>
+                        <option value="04:45 pm to 05:00 pm">04:45 pm to 05:00 pm</option>
+                    </select>   
+                </div>
+                
+                <div class="form-group">
+                  <center>  <input type="submit" value="Book Apointment" class="rounded-pill button py-2"></center>
+                </div>
+                
+            </form>     
+            </div>
+        </div>
+      </div>
+      </div>
+          </div>
+      
+    
+      
+      
+      <!-- <div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6" style="padding-top: 0%">copyright@2020 Healing Hands.</div>
+				<div class="col-sm-6">
+					<ul id="social-icons" class="float-md-right">
+						<li><a href=""><i class="fab fa-facebook-square"></i> </a></li>
+                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
