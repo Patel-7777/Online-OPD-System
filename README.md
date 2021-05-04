@@ -16,4 +16,4 @@ This is web application for booking online appointment and seeking hospital info
 > ``` npm run dev```
  
 # Demo Video
-![Demo](https://user-images.githubusercontent.com/70095518/117039253-32592e80-ad26-11eb-9b96-59e25c11ed7a.mp4)
+![Demo]([![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA))
