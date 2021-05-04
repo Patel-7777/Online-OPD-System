@@ -16,4 +16,6 @@ This is web application for booking online appointment and seeking hospital info
 > ``` npm run dev```
  
 # Demo Video
-![Demo] (https://github.com/krupali30/Online-OPD-Appointment-System/blob/main/Part%2001.mp4)
+![Game Process](https://user-images.githubusercontent.com/70095518/117039253-32592e80-ad26-11eb-9b96-59e25c11ed7a.mp4)
+>![Demo] (https://github.com/krupali30/Online-OPD-Appointment-System/blob/main/Part%2001.mp4)
+>! [Demo] (https://user-images.githubusercontent.com/70095518/117039253-32592e80-ad26-11eb-9b96-59e25c11ed7a.mp4)
