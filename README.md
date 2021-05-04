@@ -17,8 +17,3 @@ This is web application for booking online appointment and seeking hospital info
  
 # Demo Video
 ![Demo](https://user-images.githubusercontent.com/70095518/117039253-32592e80-ad26-11eb-9b96-59e25c11ed7a.mp4)
->![Watch the video](https://user-images.githubusercontent.com/70095518/117037673-60d60a00-ad24-11eb-933b-bf55f58b13c4.mp4)
->![Watch the video](https://user-images.githubusercontent.com/70095518/117037783-7cd9ab80-ad24-11eb-9466-a9dd5bb3cd28.mp4)
->![Watch the video](https://user-images.githubusercontent.com/70095518/117037800-86631380-ad24-11eb-9c04-aa28abe8c1a3.mp4)
->![Watch the video](https://user-images.githubusercontent.com/70095518/117037827-8ebb4e80-ad24-11eb-981f-a48dd191f2de.mp4)
-
