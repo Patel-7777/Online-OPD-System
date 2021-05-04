@@ -7,8 +7,6 @@ This is web application for booking online appointment and seeking hospital info
 * Node.Js
 * MySQL (XAMPP)
 
-# Snapshopts of Project
-[!Watch the video](https://user-images.githubusercontent.com/70095518/117012638-c918f180-ad0c-11eb-83b2-5d0ba697256a.mp4)
 # Getting started with Project
 * To run this project, you should have node.js , npm , nodemailer and express.js installed on your system. If you don't have node.js and npm, you can visit The official site of node.js to install them on your system. 
 * If you don't have MySQL in your system , install MySQL from official site .
@@ -16,3 +14,6 @@ This is web application for booking online appointment and seeking hospital info
 * To run the project type  the following
   command in terminal:
 > ``` npm run dev```
+
+# Demo Video
+[!Watch the video](https://user-images.githubusercontent.com/70095518/117012638-c918f180-ad0c-11eb-83b2-5d0ba697256a.mp4)
