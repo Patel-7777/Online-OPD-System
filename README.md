@@ -15,7 +15,7 @@ This is web application for booking online appointment and seeking hospital info
   command in terminal:
 > ``` npm run dev```
  
-# Demo Video
+# Demo Videos
 
 https://user-images.githubusercontent.com/70095518/117102166-5dc73200-ad95-11eb-8812-0220e5792cb3.mp4
 
@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/70095518/117100410-4ede8080-ad91-11eb-
 
 https://user-images.githubusercontent.com/70095518/117104456-c9ab9980-ad99-11eb-9a80-591d0111ba05.mp4
 
+https://user-images.githubusercontent.com/70095518/117104700-40489700-ad9a-11eb-99b3-de689dafe520.mp4
 
 
-![Game Process](https://user-images.githubusercontent.com/70095518/117039253-32592e80-ad26-11eb-9b96-59e25c11ed7a.mp4)
 
